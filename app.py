@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 # Cargar dataset
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/shariful07/dataset-repo/main/student_mental_health.csv"
+    url = "https://github.com/PerillaModsUnab/estresestudiantes.csv"
     df = pd.read_csv(url)
     return df
 
